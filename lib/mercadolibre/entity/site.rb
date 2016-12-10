@@ -3,7 +3,7 @@ module Mercadolibre
     class Site
       def self.attr_list
         [:id, :name, :country_id, :sale_fees_mode, :mercadopago_version, :default_currency_id,
-         :currencies, :immediate_payment, :payment_method_ids, :categories]
+         :currencies, :immediate_payment, :payment_method_ids, :categories, :sites]
       end
 
       attr_reader *attr_list
